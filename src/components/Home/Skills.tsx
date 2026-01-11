@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import gradientBackground from '../../assets/gradient.png'
+const gradientBackground = "/images/gradient.png";
 
 type Skill = string | { language: string; level: string };
 

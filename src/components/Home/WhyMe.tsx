@@ -2,16 +2,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import FloatingShapes from '../UI/FloatingShapes';
-import bgimg from '../../assets/gradient.png'
-import HomeEZY from '../../assets/HomeEZY.png';
-import HomeEZY2 from '../../assets/HomeEZY2.png';
-import LoginEZY from '../../assets/LoginEZY.png';
-import AboutEZY from '../../assets/AboutEZY.png';
-import HomeCart from '../../assets/HomeCart.png';
-import Faq from '../../assets/Faq.png';
-import Products from '../../assets/Products.png';
-import Chatbot from '../../assets/Chatbot.png';
-import Cart from '../../assets/Cart.png';
+const bgimg = "/images/gradient.png";
+const HomeEZY = "/images/HomeEZY.png";
+const HomeEZY2 = "/images/HomeEZY2.png";
+const LoginEZY = "/images/LoginEZY.png";
+const AboutEZY = "/images/AboutEZY.png";
+const HomeCart = "/images/HomeCart.png";
+const Faq = "/images/Faq.png";
+const Products = "/images/Products.png";
+const Chatbot = "/images/Chatbot.png";
+const Cart = "/images/Cart.png";
 const WhyMe = () => {
     const prons = [
         { id: 1, title: "High-Performance Execution with an Uncompromising Focus on Quality" },

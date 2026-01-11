@@ -1,5 +1,5 @@
-import AboutImg from "../../assets/AboutImg.png";
-import CV from "../../assets/Mahmoud_Fathy_CV.pdf";
+const AboutImg = "/images/AboutImg.png";
+const CV = "/images/Mahmoud_Fathy_CV.pdf";
 
 const HeroAbout = () => {
   return (

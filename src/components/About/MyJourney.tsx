@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
-import HTML from "../../assets/Html.png";
-import CSS from "../../assets/Css.png";
+const HTML = "/images/Html.png";
+const CSS = "/images/Css.png";
 import BackgroundLightLines from "../UI/BackgroundLightLines";
 import FloatingTriangle from "../UI/FloatingTriangle";
 

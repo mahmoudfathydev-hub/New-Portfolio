@@ -1,4 +1,4 @@
-import gradientBackground from './assets/gradient.png'
+const gradientBackground = "/images/gradient.png";
 import Home from './pages/Home'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -7,6 +7,8 @@ import About from './pages/About';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Global/Navbar';
 import Footer from './components/Global/Footer';
+import Project from './pages/Project';
+import ProjectInfo from './pages/ProjectInfo';
 export default function App() {
   useEffect(() => {
     AOS.init({
@@ -23,6 +25,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Project />} />
+          <Route path="/project/:id" element={<ProjectInfo />} />
         </Routes>
         <Footer />
       </main>

@@ -8,7 +8,7 @@ interface Ball {
     radius: number;
 }
 
-const getRandom = (min: number, max: number) => Math.random() * (max - min) + min;
+
 
 const FloatingShapes: React.FC = () => {
     const containerRef = useRef<HTMLDivElement>(null);

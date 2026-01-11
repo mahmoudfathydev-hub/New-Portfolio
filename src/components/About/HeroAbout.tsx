@@ -1,5 +1,6 @@
 import AboutImg from "../../assets/AboutImg.png";
 import CV from "../../assets/Mahmoud_Fathy_CV.pdf";
+
 const HeroAbout = () => {
   return (
     <main className="flex flex-col-reverse md:flex-row items-center justify-between max-w-6xl mx-auto px-6 py-12gap-y-40md:gap-x-20xl:max-w-screen-xl">

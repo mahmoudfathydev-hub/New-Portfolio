@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { MdMenu } from "react-icons/md";
-import { Link, Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [showMobileNav, setShowMobileNav] = useState(false);

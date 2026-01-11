@@ -61,11 +61,7 @@ const Hero = () => {
 
             {/* 3D MODEL SECTION */}
             <Spline
-                data-aos="fade-zoom-in"
-                data-aos-easing="ease-in-back"
-                data-aos-delay="300"
-                data-aos-offset="0"
-                data-aos-duration="1500"
+            
                 className="
             w-full
             h-[300px]

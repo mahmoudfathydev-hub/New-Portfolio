@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { MdMenu } from "react-icons/md";
+import { Link, Navigate } from "react-router-dom";
 
 const Navbar = () => {
     const [showMobileNav, setShowMobileNav] = useState(false);
@@ -18,25 +19,31 @@ const Navbar = () => {
     return (
         <header className="flex justify-between items-center py-4 px-4 lg:px-20 relative">
             <div>
-                <h3 data-aos="fade-down"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
-                    className="text-2xl md:text-3xl lg:text-4xl font-light m-0">Pharaon</h3>
+                <Link to="/">
+                    <h3 data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1000"
+                        className="text-2xl md:text-3xl lg:text-4xl font-light m-0">Pharaon
+                    </h3>
+                </Link>
             </div>
 
             {/* Desktop Nav */}
             <nav className="hidden md:flex items-center">
                 <ul className="flex space-x-10">
-                    {links.map((link , index) => (
-                        <li
-                            data-aos="fade-down"
-                            data-aos-easing="linear"
-                            data-aos-duration={1000 + index * 500}
-                            key={link.id}
-                            className="tracking-wider text-lg hover:text-gray-300 transition-all duration-300 cursor-pointer"
-                        >
-                            {link.name}
-                        </li>
+                    {links.map((link, index) => (
+                        <Link to={link.link} key={index}>
+                            <li
+                                data-aos="fade-down"
+                                data-aos-easing="linear"
+                                data-aos-duration={1000 + index * 500}
+                                key={link.id}
+
+                                className="tracking-wider text-lg hover:text-gray-300 transition-all duration-300 cursor-pointer"
+                            >
+                                {link.name}
+                            </li>
+                        </Link>
                     ))}
                 </ul>
             </nav>

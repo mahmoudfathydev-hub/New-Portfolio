@@ -1,15 +1,15 @@
-import Navbar from "../components/Global/Navbar"
+import Contact from "../components/Home/Contact"
 import Hero from "../components/Home/Hero"
 import Skills from "../components/Home/Skills"
-import Vedio from "../components/Home/Video"
+import WhyMe from "../components/Home/WhyMe"
 
 const Home = () => {
     return (
         <div>
-            <Navbar />
             <Hero />
             <Skills />
-            <Vedio />
+            <WhyMe />
+            <Contact />
         </div>
     )
 }

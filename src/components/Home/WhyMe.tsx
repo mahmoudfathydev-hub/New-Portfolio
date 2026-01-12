@@ -2,16 +2,17 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import FloatingShapes from '../UI/FloatingShapes';
-const bgimg = "/images/gradient.png";
-const HomeEZY = "/images/HomeEZY.png";
-const HomeEZY2 = "/images/HomeEZY2.png";
-const LoginEZY = "/images/LoginEZY.png";
-const AboutEZY = "/images/AboutEZY.png";
-const HomeCart = "/images/HomeCart.png";
-const Faq = "/images/FAQ.png";
-const Products = "/images/Products.png";
-const Chatbot = "/images/Chatbot.png";
-const Cart = "/images/Cart.png";
+import { getAssetPath } from '../../utils/paths';
+const bgimg = getAssetPath("images/gradient.png");
+const HomeEZY = getAssetPath("images/HomeEZY.png");
+const HomeEZY2 = getAssetPath("images/HomeEZY2.png");
+const LoginEZY = getAssetPath("images/LoginEZY.png");
+const AboutEZY = getAssetPath("images/AboutEZY.png");
+const HomeCart = getAssetPath("images/HomeCart.png");
+const Faq = getAssetPath("images/FAQ.png");
+const Products = getAssetPath("images/Products.png");
+const Chatbot = getAssetPath("images/Chatbot.png");
+const Cart = getAssetPath("images/Cart.png");
 const WhyMe = () => {
     const prons = [
         { id: 1, title: "High-Performance Execution with an Uncompromising Focus on Quality" },

@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import { FaChevronRight } from "react-icons/fa6";
-import icon from "/images/Icon.png";
-import icon2 from "/images/Icon2.png";
-import icon3 from "/images/Icon3.png";
-import icon4 from "/images/Icon4.png";
-import icon5 from "/images/Icon5.png";
-import icon6 from "/images/Icon6.png";
+import { getAssetPath } from '../../utils/paths';
 import FloatingBubbles from "../UI/FloatingBubble";
+const icon = getAssetPath("images/Icon.png");
+const icon2 = getAssetPath("images/Icon2.png");
+const icon3 = getAssetPath("images/Icon3.png");
+const icon4 = getAssetPath("images/Icon4.png");
+const icon5 = getAssetPath("images/Icon5.png");
+const icon6 = getAssetPath("images/Icon6.png");
 const ServicesComponent = () => {
     const cards = [
         {

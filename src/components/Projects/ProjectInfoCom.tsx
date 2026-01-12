@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { FaGithub, FaExternalLinkAlt, FaTimes } from "react-icons/fa";
 import projectsData from "../../Data/ProjectsData.json";
+import { getAssetPath } from "../../utils/paths";
 
 interface ProjectImage {
     id: number;
@@ -31,7 +32,17 @@ interface ProjectsData {
 const ProjectInfoCom = () => {
     const { id } = useParams<{ id: string }>();
     const data = projectsData as ProjectsData;
-    const project = data.projects.find((p) => p.id === Number(id));
+    const projectData = data.projects.find((p) => p.id === Number(id));
+    
+    // Transform paths to include base path
+    const project = projectData ? {
+        ...projectData,
+        images: projectData.images.map(img => ({
+            ...img,
+            img: getAssetPath(img.img.replace(/^\//, ''))
+        })),
+        video: projectData.video ? getAssetPath(projectData.video.replace(/^\//, '')) : undefined
+    } : null;
 
     const [selectedImage, setSelectedImage] = useState<string | null>(null);
 

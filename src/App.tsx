@@ -7,11 +7,14 @@ import Services from './pages/Services'
 import Contact from './pages/Contact'
 import Navbar from './components/Global/Navbar'
 import Footer from './components/Global/Footer'
+import ScrollToTop from './components/Global/ScrollToTop'
+import BackToTop from './components/Global/BackToTop'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
+import { getAssetPath } from './utils/paths'
 
-const gradientBackground = "./images/gradient.png";
+const gradientBackground = getAssetPath("images/gradient.png");
 
 export default function App() {
   useEffect(() => {
@@ -23,6 +26,7 @@ export default function App() {
 
   return (
     <main>
+      <ScrollToTop />
       <img
         className='absolute top-0 right-0 opacity-60 -z-10'
         src={gradientBackground}
@@ -39,6 +43,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <BackToTop />
     </main>
   )
 }

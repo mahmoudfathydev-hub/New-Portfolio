@@ -1,10 +1,11 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
-const HTML = "/images/Html.png";
-const CSS = "/images/Css.png";
+import { getAssetPath } from '../../utils/paths';
 import BackgroundLightLines from "../UI/BackgroundLightLines";
 import FloatingTriangle from "../UI/FloatingTriangle";
+const HTML = getAssetPath("images/Html.png");
+const CSS = getAssetPath("images/Css.png");
 
 const MyJourney = () => {
     const journeyCards = [

@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import projectsData from "../../Data/ProjectsData.json";
+import { getAssetPath } from "../../utils/paths";
 interface ProjectImage {
     id: number;
     img: string;
@@ -27,6 +28,15 @@ interface ProjectsData {
 export default function ProjectsSection() {
     const navigate = useNavigate();
     const data = projectsData as ProjectsData;
+    // Transform paths to include base path
+    const projects = data.projects.map(project => ({
+        ...project,
+        images: project.images.map(img => ({
+            ...img,
+            img: getAssetPath(img.img.replace(/^\//, ''))
+        }))
+    }));
+    
     return (
         <div className="flex flex-col items-center justify-center projects-section py-20 px-6 max-w-7xl mx-auto">
             <div className="section-title text-center mb-16" data-aos="fade-down">
@@ -35,7 +45,7 @@ export default function ProjectsSection() {
                 </h2>
             </div>
             <div className="flex flex-wrap justify-center gap-8 w-full">
-                {data.projects.map((project, index) => {
+                {projects.map((project, index) => {
                     const firstImage = project.images[0]?.img;
                     return (
                         <motion.div

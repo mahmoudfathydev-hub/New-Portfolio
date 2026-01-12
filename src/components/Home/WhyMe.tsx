@@ -23,7 +23,7 @@ const WhyMe = () => {
     return (
         <>
             {/* Why Me Text Section */}
-            <section className="relative w-full h-[60vh] md:h-[60vh] sm:h-[60vh] flex justify-center items-center px-4 sm:px-8 lg:px-16">
+            <section className="relative w-full h-[60vh] md:h-[60vh] sm:h-[60vh] flex justify-center items-center flex-row px-4 sm:px-8 lg:px-16">
                 <img className='absolute top-0 right-0 opacity-60 -z-10' src={bgimg} alt="Gradient" />
                 <div className='h-0 w-[40rem] absolute top-[20%] right-[-5%] shadow-[0_0_900px_20px_#e99b63] -rotate-[30deg] -z-10'></div>
                 <FloatingShapes />

@@ -211,29 +211,6 @@ keyframes: {
 
 ---
 
-## 🚀 Deployment
-
-This project can be deployed to various platforms:
-
-### Netlify
-```bash
-npm run build
-# Deploy the 'dist' folder
-```
-
-### Vercel
-```bash
-vercel --prod
-```
-
-### GitHub Pages
-```bash
-npm run build
-# Deploy the 'dist' folder to gh-pages branch
-```
-
----
-
 ## 📝 Scripts
 
 | Command | Description |
@@ -267,10 +244,9 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Developer
 
 **Mahmoud Fathy**
-- Portfolio: [Your Website](https://yourwebsite.com)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- GitHub: [Your GitHub](https://github.com/yourusername)
-- Email: your.email@example.com
+- LinkedIn: www.linkedin.com/in/mahmoud-fathy-439293391
+- GitHub: https://github.com/mahmoudfathydev-hub
+- Email: mahmoudfathy.dev@gmail.com
 
 ---
 

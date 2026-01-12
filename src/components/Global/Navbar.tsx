@@ -67,7 +67,15 @@ const Navbar = () => {
                     <nav>
                         <ul className="flex flex-col gap-6 items-center text-white text-xl">
                             {links.map((link) => (
-                                <li key={link.id}>{link.name}</li>
+                                <li key={link.id}>
+                                    <Link 
+                                        to={link.link}
+                                        onClick={() => setShowMobileNav(false)}
+                                        className="hover:text-[#e99b63] transition-colors duration-300 cursor-pointer"
+                                    >
+                                        {link.name}
+                                    </Link>
+                                </li>
                             ))}
                             <li>
                                 <button className="bg-[#a7a7a7] text-black py-3 px-8 rounded-full font-medium transition-all duration-500 hover:bg-white">

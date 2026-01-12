@@ -49,7 +49,7 @@ const Navbar = () => {
             </nav>
 
             <button className="hidden md:block bg-[#a7a7a7] text-black py-3 px-8 rounded-full font-medium transition-all duration-500 hover:bg-white">
-                Sign In
+                Hire Me
             </button>
 
             {/* Mobile Button */}

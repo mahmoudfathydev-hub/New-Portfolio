@@ -9,6 +9,8 @@ import Navbar from './components/Global/Navbar';
 import Footer from './components/Global/Footer';
 import Project from './pages/Project';
 import ProjectInfo from './pages/ProjectInfo';
+import Services from './pages/Services';
+import Contact from './pages/Contact';
 export default function App() {
   useEffect(() => {
     AOS.init({
@@ -27,6 +29,8 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Project />} />
           <Route path="/project/:id" element={<ProjectInfo />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </main>

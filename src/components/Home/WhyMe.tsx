@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import FloatingShapes from '../UI/FloatingShapes';
 import { getAssetPath } from '../../utils/paths';
 const bgimg = getAssetPath("images/gradient.png");
 const HomeEZY = getAssetPath("images/HomeEZY.png");
@@ -36,9 +35,6 @@ const WhyMe = () => {
                     <div className="h-0 w-[40rem] absolute top-[20%] right-[-5%]
                                     shadow-[0_0_900px_20px_#e99b63] -rotate-[30deg] -z-10" />
 
-                    <FloatingShapes />
-
-                    {/* Content */}
                     <div className="relative z-10 w-full max-w-md flex flex-col items-center">
                         <div className="px-4 py-6 rounded-xl transition-all duration-500
                                         backdrop-blur-md border border-gray-50

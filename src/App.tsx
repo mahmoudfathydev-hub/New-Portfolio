@@ -11,7 +11,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
-const gradientBackground = "/images/gradient.png";
+const gradientBackground = "./images/gradient.png";
 
 export default function App() {
   useEffect(() => {

@@ -24,11 +24,6 @@ const WhyMe = () => {
         { id: 2, img: HomeEZY2 },
         { id: 3, img: LoginEZY },
         { id: 4, img: AboutEZY },
-        { id: 5, img: HomeCart },
-        { id: 6, img: Faq },
-        { id: 7, img: Products },
-        { id: 8, img: Chatbot },
-        { id: 9, img: Cart },
     ];
     return (
         <>

@@ -21,7 +21,7 @@ const WhyMe = () => {
         { id: 4, img: AboutEZY },
     ];
     return (
-        <>
+        <div className='flex flex-row items-center justify-between'>
             {/* Why Me Text Section */}
             <section className="relative w-full h-[60vh] md:h-[60vh] sm:h-[60vh] flex justify-center items-center flex-row px-4 sm:px-8 lg:px-16">
                 <img className='absolute top-0 right-0 opacity-60 -z-10' src={bgimg} alt="Gradient" />
@@ -84,7 +84,7 @@ const WhyMe = () => {
                     </div>
                 </div>
             </section>
-        </>
+        </div>
     );
 }
 export default WhyMe;

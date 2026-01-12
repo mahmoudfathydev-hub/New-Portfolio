@@ -110,4 +110,4 @@ const WhyMe = () => {
             </div>
         </section>
     );
-};export default WhyMe;
+}; export default WhyMe;

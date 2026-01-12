@@ -8,11 +8,6 @@ const HomeEZY = getAssetPath("images/HomeEZY.png");
 const HomeEZY2 = getAssetPath("images/HomeEZY2.png");
 const LoginEZY = getAssetPath("images/LoginEZY.png");
 const AboutEZY = getAssetPath("images/AboutEZY.png");
-const HomeCart = getAssetPath("images/HomeCart.png");
-const Faq = getAssetPath("images/FAQ.png");
-const Products = getAssetPath("images/Products.png");
-const Chatbot = getAssetPath("images/Chatbot.png");
-const Cart = getAssetPath("images/Cart.png");
 const WhyMe = () => {
     const prons = [
         { id: 1, title: "High-Performance Execution with an Uncompromising Focus on Quality" },

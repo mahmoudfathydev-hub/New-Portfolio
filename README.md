@@ -12,23 +12,23 @@
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](/images/Screenshot1.png)
+![Home Page](public/images/Screenshot1.png)
 *Interactive hero section with 3D robot animation and smooth scroll effects*
 
 ### About Page
-![About Page](/images/Screenshot2.png)
+![About Page](public/images/Screenshot2.png)
 *Comprehensive introduction with skills showcased through animated progress bars*
 
 ### Services Page
-![Services Page](/images/Screenshot3.png)
+![Services Page](public/images/Screenshot3.png)
 *Service offerings with dynamic floating bubbles and smooth hover animations*
 
 ### Projects Page
-![Projects Page](/images/Screenshot4.png)
+![Projects Page](public/images/Screenshot4.png)
 *Portfolio projects gallery with detailed project cards and interactive elements*
 
 ### Contact Page
-![Contact Page](/images/Screenshot5.png)
+![Contact Page](public/images/Screenshot5.png)
 *Contact form with social media links and professional contact information*
 
 ---

@@ -12,23 +12,23 @@
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](file:///C:/Users/hp/.gemini/antigravity/brain/af2ade2f-a4a6-4558-9304-a6a0e7fce780/home_page_screenshot_1768211328705.png)
+![Home Page](/images/Screenshot1.png)
 *Interactive hero section with 3D robot animation and smooth scroll effects*
 
 ### About Page
-![About Page](file:///C:/Users/hp/.gemini/antigravity/brain/af2ade2f-a4a6-4558-9304-a6a0e7fce780/about_page_screenshot_1768211391403.png)
+![About Page](/images/Screenshot2.png)
 *Comprehensive introduction with skills showcased through animated progress bars*
 
 ### Services Page
-![Services Page](file:///C:/Users/hp/.gemini/antigravity/brain/af2ade2f-a4a6-4558-9304-a6a0e7fce780/services_page_bubbles_1768211435347.png)
+![Services Page](/images/Screenshot3.png)
 *Service offerings with dynamic floating bubbles and smooth hover animations*
 
 ### Projects Page
-![Projects Page](file:///C:/Users/hp/.gemini/antigravity/brain/af2ade2f-a4a6-4558-9304-a6a0e7fce780/projects_page_screenshot_1768211489996.png)
+![Projects Page](/images/Screenshot4.png)
 *Portfolio projects gallery with detailed project cards and interactive elements*
 
 ### Contact Page
-![Contact Page](file:///C:/Users/hp/.gemini/antigravity/brain/af2ade2f-a4a6-4558-9304-a6a0e7fce780/contact_page_screenshot_1768211542156.png)
+![Contact Page](/images/Screenshot5.png)
 *Contact form with social media links and professional contact information*
 
 ---

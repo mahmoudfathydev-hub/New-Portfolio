@@ -1,6 +1,6 @@
 import { getAssetPath } from '../../utils/paths';
 const AboutImg = getAssetPath("images/AboutImg.png");
-const CV = getAssetPath("images/Mahmoud_Fathy_CV.pdf");
+const CV = getAssetPath("images/CV.pdf");
 
 const HeroAbout = () => {
   return (

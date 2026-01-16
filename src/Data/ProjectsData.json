@@ -254,27 +254,27 @@
       "images": [
         {
           "id": 1,
-          "img": "/mainahmed.png"
+          "img": "/images/mainahmed.png"
         },
         {
           "id": 2,
-          "img": "/homeahmed.png"
+          "img": "/images/homeahmed.png"
         },
         {
           "id": 3,
-          "img": "/aboutahmed.png"
+          "img": "/images/aboutahmed.png"
         },
         {
           "id": 4,
-          "img": "/contactahmed.png"
+          "img": "/images/contactahmed.png"
         },
         {
           "id": 5,
-          "img": "/projectsahmed.png"
+          "img": "/images/projectsahmed.png"
         },
         {
           "id": 6,
-          "img": "/projectahmed.png"
+          "img": "/images/projectahmed.png"
         }
       ],
       "video": "/videos/Ahmedportfolio.mp4",

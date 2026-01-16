@@ -201,6 +201,85 @@
       "video": "/videos/cartopiaa.mp4",
       "netlify": "https://cartopia-hup.netlify.app/",
       "github": "https://github.com/mahmoudfathydev-hub/Ecommerce-Cartopiaa.git"
+    },
+    {
+      "id": 3,
+      "name": "Ahmed Portfolio Website",
+      "desc": "Ahmed's Professional Portfolio Website showcases modern web development skills, responsive design, animations, and interactive UI components. Built with Next.js, React, Tailwind CSS, and AOS, it highlights projects, skills, and contact information in a professional layout.",
+      "features": [
+        "Fully responsive homepage with Hero, Skills (animated bars), Services, Why Me, and CTA sections",
+        "About page with Hero section, timeline for experience, education, and animated typing text",
+        "Projects page with responsive grid, project cards, hover effects, and AOS entrance animations",
+        "Project Detail pages with image gallery, Swiper carousel for other projects, and detailed project info",
+        "Contact page with info cards, dynamic contact form, FAQ section, and sidebar with services and social links",
+        "Back to Top button with smooth scroll and hover effects",
+        "Loading skeletons for pages and components to improve perceived performance",
+        "AOS scroll animations throughout pages with staggered delays for engaging UX"
+      ],
+      "tools_and_libraries": [
+        "Next.js 16.1.2",
+        "React 19.2.3",
+        "TypeScript 5",
+        "Tailwind CSS 4",
+        "PostCSS 4",
+        "@tailwindcss/postcss",
+        "AOS 3.0.0-beta.6",
+        "Swiper.js 11+",
+        "React Icons 5.5.0",
+        "Framer Motion (optional for extra animations)",
+        "ESLint 9"
+      ],
+      "architecture": [
+        "Feature-based folder structure: pages, components, shared logic",
+        "Reusable global components: Navbar, Footer, BackToTop, ImageGallery, Skeletons",
+        "Next.js file-based routing with optimized per-page code splitting",
+        "Centralized AOS initialization in layout.tsx",
+        "Responsive layouts using Tailwind CSS breakpoints (mobile → 2xl)"
+      ],
+      "design_system": [
+        "Primary Colors: Orange (#FF6C0C), Dark (#181A1B), Gray (#6B7280)",
+        "Typography: Geist Sans and Geist Mono",
+        "Hover effects: scale, shadow, color transitions",
+        "Smooth entrance animations on scroll using AOS",
+        "Consistent padding, margins, and responsive grid layouts"
+      ],
+      "status": [
+        "All frontend pages completed: Home, About, Projects, Project Detail, Contact",
+        "Animations and hover effects fully implemented",
+        "Responsive design verified across devices",
+        "Performance optimizations applied (lazy loading, CSS purge, image optimization)",
+        "SEO meta tags and accessibility considerations included"
+      ],
+      "goal": "Showcase Ahmed's professional web development portfolio in a visually engaging, interactive, and fully responsive platform, demonstrating modern frontend skills, UX design, and project presentation.",
+      "images": [
+        {
+          "id": 1,
+          "img": "/mainahmed.png"
+        },
+        {
+          "id": 2,
+          "img": "/homeahmed.png"
+        },
+        {
+          "id": 3,
+          "img": "/aboutahmed.png"
+        },
+        {
+          "id": 4,
+          "img": "/contactahmed.png"
+        },
+        {
+          "id": 5,
+          "img": "/projectsahmed.png"
+        },
+        {
+          "id": 6,
+          "img": "/projectahmed.png"
+        }
+      ],
+      "video": "/videos/Ahmedportfolio.mp4",
+      "Vercel": "https://ahmed-maher-three.vercel.app/",
+      "github": "https://github.com/mahmoudfathydev-hub/freelance-ahmed.git"
     }
   ]
 }

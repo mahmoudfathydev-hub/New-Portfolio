@@ -26,6 +26,7 @@ const Skills: React.FC = () => {
             cardColor: "from-green-400/40 to-green-600/40",
             skills: [
                 "ReactJS",
+                "NextJS",
                 "Tailwind CSS",
                 "Redux Toolkit",
                 "Material UI",

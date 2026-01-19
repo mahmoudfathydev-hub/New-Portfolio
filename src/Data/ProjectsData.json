@@ -110,36 +110,34 @@
       "tools_and_libraries": [
         "React 19",
         "Vite",
-        "React-Router ",
-        "Context",
-        "Sass ",
+        "React Router",
+        "Context API",
+        "Sass",
         "Framer Motion",
         "Swiper",
         "Axios",
         "React Icons"
       ],
       "architecture": [
-        "Component-based architecture with separation of concerns (Pages, Components, Contexts)",
-        "Lazy loading of all route components with React.lazy() and Suspense",
-        "Feature-based folder structure: pages, reusable UI components, product info components, sidebar filters, hero banners",
-        "Optimized routing with React Router DOM",
-        "State management via Context API for Cart, Favorites, Toast notifications, Theme toggle, and Confirmation modals"
+        "Component-based architecture with separation of concerns",
+        "Lazy loading of route components with React.lazy and Suspense",
+        "Feature-based folder structure",
+        "State management via Context API"
       ],
       "design_system": [
         "Mobile-first responsive design",
-        "Custom SCSS styling with variables, nesting, and mixins",
-        "Hover effects, micro-animations, and scroll reveal transitions",
-        "Skeleton loading components for better perceived performance",
-        "Semantic HTML and ARIA attributes for accessibility"
+        "Custom SCSS styling",
+        "Hover effects and micro-animations",
+        "Skeleton loading components",
+        "Semantic HTML and accessibility support"
       ],
       "status": [
         "Core frontend features fully implemented",
         "Homepage, Products, ProductInfo, Cart, Favorites, Checkout, and Chatbot pages completed",
-        "Performance optimizations using code splitting and lazy loading",
-        "Backend/API integration planned",
-        "SEO and additional performance fine-tuning pending"
+        "Performance optimizations applied",
+        "Backend/API integration planned"
       ],
-      "goal": "Demonstrate advanced React frontend skills by creating a production-ready, interactive, and responsive e-commerce platform with a focus on UX, performance, and maintainable code.",
+      "goal": "Demonstrate advanced React frontend skills by creating a production-ready e-commerce platform.",
       "images": [
         {
           "id": 1,
@@ -205,52 +203,38 @@
     {
       "id": 3,
       "name": "Ahmed Portfolio Website",
-      "desc": "Ahmed's Professional Portfolio Website showcases modern web development skills, responsive design, animations, and interactive UI components. Built with Next.js, React, Tailwind CSS, and AOS, it highlights projects, skills, and contact information in a professional layout.",
+      "desc": "Ahmed's Professional Portfolio Website showcases modern web development skills, responsive design, animations, and interactive UI components.",
       "features": [
-        "Fully responsive homepage with Hero, Skills (animated bars), Services, Why Me, and CTA sections",
-        "About page with Hero section, timeline for experience, education, and animated typing text",
-        "Projects page with responsive grid, project cards, hover effects, and AOS entrance animations",
-        "Project Detail pages with image gallery, Swiper carousel for other projects, and detailed project info",
-        "Contact page with info cards, dynamic contact form, FAQ section, and sidebar with services and social links",
-        "Back to Top button with smooth scroll and hover effects",
-        "Loading skeletons for pages and components to improve perceived performance",
-        "AOS scroll animations throughout pages with staggered delays for engaging UX"
+        "Responsive homepage and about sections",
+        "Projects grid and detailed project pages",
+        "Animated UI with AOS",
+        "Contact form and FAQ section"
       ],
       "tools_and_libraries": [
-        "Next.js 16.1.2",
-        "React 19.2.3",
-        "TypeScript 5",
-        "Tailwind CSS 4",
-        "PostCSS 4",
-        "@tailwindcss/postcss",
-        "AOS 3.0.0-beta.6",
-        "Swiper.js 11+",
-        "React Icons 5.5.0",
-        "Framer Motion (optional for extra animations)",
-        "ESLint 9"
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "AOS",
+        "Swiper",
+        "React Icons"
       ],
       "architecture": [
-        "Feature-based folder structure: pages, components, shared logic",
-        "Reusable global components: Navbar, Footer, BackToTop, ImageGallery, Skeletons",
-        "Next.js file-based routing with optimized per-page code splitting",
-        "Centralized AOS initialization in layout.tsx",
-        "Responsive layouts using Tailwind CSS breakpoints (mobile → 2xl)"
+        "Feature-based structure",
+        "Reusable components",
+        "Next.js file-based routing"
       ],
       "design_system": [
-        "Primary Colors: Orange (#FF6C0C), Dark (#181A1B), Gray (#6B7280)",
-        "Typography: Geist Sans and Geist Mono",
-        "Hover effects: scale, shadow, color transitions",
-        "Smooth entrance animations on scroll using AOS",
-        "Consistent padding, margins, and responsive grid layouts"
+        "Orange & dark color palette",
+        "Geist fonts",
+        "Consistent spacing and grid layouts"
       ],
       "status": [
-        "All frontend pages completed: Home, About, Projects, Project Detail, Contact",
-        "Animations and hover effects fully implemented",
-        "Responsive design verified across devices",
-        "Performance optimizations applied (lazy loading, CSS purge, image optimization)",
-        "SEO meta tags and accessibility considerations included"
+        "All frontend pages completed",
+        "Animations implemented",
+        "Responsive design verified"
       ],
-      "goal": "Showcase Ahmed's professional web development portfolio in a visually engaging, interactive, and fully responsive platform, demonstrating modern frontend skills, UX design, and project presentation.",
+      "goal": "Present a professional portfolio showcasing modern frontend capabilities.",
       "images": [
         {
           "id": 1,
@@ -278,114 +262,104 @@
         }
       ],
       "video": "/videos/Ahmedportfolio.mp4",
-      "Vercel": "https://ahmed-maher-three.vercel.app/",
+      "vercel": "https://ahmed-maher-three.vercel.app/",
       "github": "https://github.com/mahmoudfathydev-hub/freelance-ahmed.git"
-    }
-  ],
-  "id": 4,
-  "name": "Elite Gym",
-  "desc": "Elite Gym is a professional, full-featured gym management platform built with Next.js. It enables gym owners and trainers to manage trainees, schedules, payments, and progress tracking through a modern dashboard with real-time data synchronization and AI-powered fitness assistance.",
-  "features": [
-    "Role-based authentication for captains (trainers) and trainees",
-    "Comprehensive dashboard with real-time stats and activity feeds",
-    "Full trainee management (add, delete, image upload, validation)",
-    "Advanced schedule management system (Schedule Captain)",
-    "Payment plans UI with interactive selection and summaries",
-    "AI fitness assistant with multilingual voice input (EN / AR / FR)",
-    "Speech-to-text with auto RTL handling for Arabic",
-    "Real-time data sync using Appwrite backend",
-    "Dark-themed, responsive UI with animations and toast notifications"
-  ],
-  "tools_and_libraries": [
-    "Next.js 16.1.1",
-    "React 19",
-    "TypeScript 5",
-    "Tailwind CSS 4",
-    "Framer Motion",
-    "AOS",
-    "Swiper.js",
-    "React Icons",
-    "Lucide React",
-    "React Hot Toast",
-    "Appwrite",
-    "Google Gemini API",
-    "Web Speech API"
-  ],
-  "architecture": [
-    "Next.js App Router with feature-based routing",
-    "Clear separation between dashboard, public pages, and auth flows",
-    "Reusable global UI components and dashboard-specific components",
-    "Context API for authentication and role-based state management",
-    "Backend-as-a-Service architecture using Appwrite (DB, Storage, Realtime)"
-  ],
-  "design_system": [
-    "Dark UI with Slate-based backgrounds",
-    "Primary Colors: Sky / Blue accents",
-    "Success: Green / Emerald, Error: Red",
-    "Typography: Montserrat (headings), Open Sans (body)",
-    "Cards with gradients, hover states, and smooth transitions",
-    "Mobile-first responsive grid layouts"
-  ],
-  "status": [
-    "Core dashboard features completed",
-    "Trainee management and scheduling implemented",
-    "AI assistant with voice input completed",
-    "Mock payment system implemented",
-    "Backend integration with Appwrite completed",
-    "Security hardening and real payments planned"
-  ],
-  "goal": "Deliver a scalable, production-ready gym management system that combines modern UI/UX, real-time backend services, and AI-powered assistance to streamline fitness center operations.",
-  "images": [
-    {
-      "id": 1,
-      "img": "/images/elitecard.png"
-    },
-    {
-      "id": 2,
-      "img": "/images/homeelite.png"
-    },
-    {
-      "id": 3,
-      "img": "/images/pricing.png"
     },
     {
       "id": 4,
-      "img": "/images/sch.png"
-    },
-    {
-      "id": 5,
-      "img": "/images/trainee.png"
-    },
-    {
-      "id": 6,
-      "img": "/images/role.png"
-    },
-    {
-      "id": 7,
-      "img": "/images/dashboaard.png"
-    },
-    {
-      "id": 8,
-      "img": "/images/traineeinfo.png"
-    },
-    {
-      "id": 9,
-      "img": "/images/members.png"
-    },
-    {
-      "id": 10,
-      "img": "/images/schcap.png"
-    },
-    {
-      "id": 11,
-      "img": "/images/payment.png"
-    },
-    {
-      "id": 12,
-      "img": "/images/chatelite.png"
+      "name": "Elite Gym",
+      "desc": "Elite Gym is a professional, full-featured gym management platform built with Next.js. It enables gym owners and trainers to manage trainees, schedules, payments, and progress tracking through a modern dashboard with real-time data synchronization and AI-powered fitness assistance.",
+      "features": [
+        "Role-based authentication for captains and trainees",
+        "Comprehensive dashboard with real-time stats",
+        "Full trainee management",
+        "Advanced schedule management",
+        "Payment plans UI",
+        "AI fitness assistant with multilingual voice input",
+        "Speech-to-text with RTL Arabic support",
+        "Appwrite realtime backend"
+      ],
+      "tools_and_libraries": [
+        "Next.js 16",
+        "React 19",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Appwrite",
+        "Google Gemini API",
+        "Web Speech API"
+      ],
+      "architecture": [
+        "Next.js App Router",
+        "Feature-based routing",
+        "Reusable UI components",
+        "Backend-as-a-Service with Appwrite"
+      ],
+      "design_system": [
+        "Dark themed UI",
+        "Sky / Blue accents",
+        "Montserrat & Open Sans typography"
+      ],
+      "status": [
+        "Core dashboard features completed",
+        "AI assistant implemented",
+        "Backend connected",
+        "Payments security planned"
+      ],
+      "goal": "Deliver a scalable, AI-powered gym management system.",
+      "images": [
+        {
+          "id": 1,
+          "img": "/images/elitecard.png"
+        },
+        {
+          "id": 2,
+          "img": "/images/homeelite.png"
+        },
+        {
+          "id": 3,
+          "img": "/images/pricing.png"
+        },
+        {
+          "id": 4,
+          "img": "/images/sch.png"
+        },
+        {
+          "id": 5,
+          "img": "/images/trainee.png"
+        },
+        {
+          "id": 6,
+          "img": "/images/role.png"
+        },
+        {
+          "id": 7,
+          "img": "/images/dashboaard.png"
+        },
+        {
+          "id": 8,
+          "img": "/images/traineeinfo.png"
+        },
+        {
+          "id": 9,
+          "img": "/images/members.png"
+        },
+        {
+          "id": 10,
+          "img": "/images/schcap.png"
+        },
+        {
+          "id": 11,
+          "img": "/images/payment.png"
+        },
+        {
+          "id": 12,
+          "img": "/images/chatelite.png"
+        }
+      ],
+      "video": "/videos/elitegym.mp4",
+      "vercel": "https://elite-gym-umber.vercel.app/",
+      "github": "https://github.com/mahmoudfathydev-hub/elite-gym.git"
     }
-  ],
-  "video": "/videos/elitegym.mp4",
-  "vercel": "https://elite-gym-umber.vercel.app/",
-  "github": "https://github.com/mahmoudfathydev-hub/elite-gym.git"
+  ]
 }

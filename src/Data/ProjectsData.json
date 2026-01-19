@@ -281,5 +281,111 @@
       "Vercel": "https://ahmed-maher-three.vercel.app/",
       "github": "https://github.com/mahmoudfathydev-hub/freelance-ahmed.git"
     }
-  ]
+  ],
+  "id": 4,
+  "name": "Elite Gym",
+  "desc": "Elite Gym is a professional, full-featured gym management platform built with Next.js. It enables gym owners and trainers to manage trainees, schedules, payments, and progress tracking through a modern dashboard with real-time data synchronization and AI-powered fitness assistance.",
+  "features": [
+    "Role-based authentication for captains (trainers) and trainees",
+    "Comprehensive dashboard with real-time stats and activity feeds",
+    "Full trainee management (add, delete, image upload, validation)",
+    "Advanced schedule management system (Schedule Captain)",
+    "Payment plans UI with interactive selection and summaries",
+    "AI fitness assistant with multilingual voice input (EN / AR / FR)",
+    "Speech-to-text with auto RTL handling for Arabic",
+    "Real-time data sync using Appwrite backend",
+    "Dark-themed, responsive UI with animations and toast notifications"
+  ],
+  "tools_and_libraries": [
+    "Next.js 16.1.1",
+    "React 19",
+    "TypeScript 5",
+    "Tailwind CSS 4",
+    "Framer Motion",
+    "AOS",
+    "Swiper.js",
+    "React Icons",
+    "Lucide React",
+    "React Hot Toast",
+    "Appwrite",
+    "Google Gemini API",
+    "Web Speech API"
+  ],
+  "architecture": [
+    "Next.js App Router with feature-based routing",
+    "Clear separation between dashboard, public pages, and auth flows",
+    "Reusable global UI components and dashboard-specific components",
+    "Context API for authentication and role-based state management",
+    "Backend-as-a-Service architecture using Appwrite (DB, Storage, Realtime)"
+  ],
+  "design_system": [
+    "Dark UI with Slate-based backgrounds",
+    "Primary Colors: Sky / Blue accents",
+    "Success: Green / Emerald, Error: Red",
+    "Typography: Montserrat (headings), Open Sans (body)",
+    "Cards with gradients, hover states, and smooth transitions",
+    "Mobile-first responsive grid layouts"
+  ],
+  "status": [
+    "Core dashboard features completed",
+    "Trainee management and scheduling implemented",
+    "AI assistant with voice input completed",
+    "Mock payment system implemented",
+    "Backend integration with Appwrite completed",
+    "Security hardening and real payments planned"
+  ],
+  "goal": "Deliver a scalable, production-ready gym management system that combines modern UI/UX, real-time backend services, and AI-powered assistance to streamline fitness center operations.",
+  "images": [
+    {
+      "id": 1,
+      "img": "/images/elitecard.png"
+    },
+    {
+      "id": 2,
+      "img": "/images/homeelite.png"
+    },
+    {
+      "id": 3,
+      "img": "/images/pricing.png"
+    },
+    {
+      "id": 4,
+      "img": "/images/sch.png"
+    },
+    {
+      "id": 5,
+      "img": "/images/trainee.png"
+    },
+    {
+      "id": 6,
+      "img": "/images/role.png"
+    },
+    {
+      "id": 7,
+      "img": "/images/dashboaard.png"
+    },
+    {
+      "id": 8,
+      "img": "/images/traineeinfo.png"
+    },
+    {
+      "id": 9,
+      "img": "/images/members.png"
+    },
+    {
+      "id": 10,
+      "img": "/images/schcap.png"
+    },
+    {
+      "id": 11,
+      "img": "/images/payment.png"
+    },
+    {
+      "id": 12,
+      "img": "/images/chatelite.png"
+    }
+  ],
+  "video": "/videos/elitegym.mp4",
+  "vercel": "https://elite-gym-umber.vercel.app/",
+  "github": "https://github.com/mahmoudfathydev-hub/elite-gym.git"
 }

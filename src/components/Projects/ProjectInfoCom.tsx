@@ -23,6 +23,7 @@ interface Project {
     video?: string;
     github?: string;
     netlify?: string;
+    vercel?: string;
 }
 
 interface ProjectsData {
@@ -33,7 +34,7 @@ const ProjectInfoCom = () => {
     const { id } = useParams<{ id: string }>();
     const data = projectsData as ProjectsData;
     const projectData = data.projects.find((p) => p.id === Number(id));
-    
+
     // Transform paths to include base path
     const project = projectData ? {
         ...projectData,
@@ -65,8 +66,6 @@ const ProjectInfoCom = () => {
                     {project.desc}
                 </p>
             </div>
-
-            {/* Links */}
             <div className="flex gap-6 mb-16" data-aos="fade-right">
                 {project.github && (
                     <a
@@ -79,9 +78,9 @@ const ProjectInfoCom = () => {
                         <span className="font-medium">Source Code</span>
                     </a>
                 )}
-                {project.netlify && (
+                {(project.netlify || project.vercel) && (
                     <a
-                        href={project.netlify}
+                        href={project.netlify || project.vercel}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-3 px-6 py-3 bg-[#e99b63] hover:bg-[#d6854d] rounded-full transition-all text-black font-bold"
@@ -91,8 +90,6 @@ const ProjectInfoCom = () => {
                     </a>
                 )}
             </div>
-
-            {/* Image Gallery */}
             {project.images && project.images.length > 0 && (
                 <div className="mb-16" data-aos="fade-up">
                     <h2 className="text-3xl font-bold text-white mb-8">

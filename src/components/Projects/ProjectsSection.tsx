@@ -21,6 +21,7 @@ interface Project {
     video?: string;
     github?: string;
     netlify?: string;
+    vercel?: string;
 }
 interface ProjectsData {
     projects: Project[];
@@ -28,7 +29,6 @@ interface ProjectsData {
 export default function ProjectsSection() {
     const navigate = useNavigate();
     const data = projectsData as ProjectsData;
-    // Transform paths to include base path
     const projects = data.projects.map(project => ({
         ...project,
         images: project.images.map(img => ({
@@ -90,9 +90,9 @@ export default function ProjectsSection() {
                                             <FaGithub />
                                         </a>
                                     )}
-                                    {project.netlify && (
+                                    {(project.netlify || project.vercel) && (
                                         <a
-                                            href={project.netlify}
+                                            href={project.netlify || project.vercel}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="text-white  flex items-center justify-center w-10 h-10 rounded-full bg-gray-800 hover:bg-gray-700 hover:text-[#e99b63] text-2xl transition-colors"

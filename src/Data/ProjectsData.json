@@ -360,6 +360,62 @@
       "video": "/videos/elitegym.mp4",
       "vercel": "https://elite-gym-umber.vercel.app/",
       "github": "https://github.com/mahmoudfathydev-hub/elite-gym.git"
+    },
+    {
+      "id": 5,
+      "name": "Portfolio Performance Optimization",
+      "desc": "A complete performance overhaul and optimization project for Mahmoud Fathy's portfolio website. The project transforms a standard Next.js application into a highly optimized, production-ready platform with excellent Core Web Vitals, reduced bundle size, and smooth GPU-accelerated animations.",
+      "features": [
+        "78% build time reduction using Turbopack and optimized dependency resolution",
+        "Complete removal of AOS and replacement with GPU-accelerated CSS animations",
+        "Strict enforcement of exactly 4 images per project for optimal gallery performance",
+        "Advanced React performance optimizations using memoization and hooks",
+        "Improved Core Web Vitals (LCP, INP, CLS) across all devices",
+        "Mobile-first performance tuning for low-end devices",
+        "Code splitting with dynamic imports and skeleton loaders",
+        "Zero layout shift animations using transform and opacity only"
+      ],
+      "tools_and_libraries": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "CSS Animations",
+        "Tailwind CSS",
+        "Turbopack",
+        "Next.js Image",
+        "Dynamic Imports"
+      ],
+      "architecture": [
+        "Modular component-based architecture",
+        "Dynamic route-level code splitting",
+        "Memoized components using React.memo",
+        "Optimized rendering with useMemo and useCallback"
+      ],
+      "design_system": [
+        "Dark theme optimized for performance",
+        "Minimal animation system using Tailwind CSS",
+        "Consistent spacing and layout stability",
+        "No category-based UI to reduce complexity"
+      ],
+      "status": [
+        "Performance optimization completed",
+        "Build and bundle optimizations applied",
+        "Core Web Vitals fully optimized",
+        "Production-ready deployment achieved"
+      ],
+      "goal": "Deliver a high-performance, scalable, and production-ready portfolio website with industry-level optimization standards.",
+      "images": [
+        { "id": 1, "img": "/images/PorCard.png" },
+        { "id": 2, "img": "/images/PorGalDesk.png" },
+        { "id": 3, "img": "/images/PorGalMob.png" },
+        { "id": 4, "img": "/images/PorHomeMob.png" },
+        { "id": 5, "img": "/images/porHomeDesk.png" },
+        { "id": 6, "img": "/images/PorProMob.png" },
+        { "id": 7, "img": "/images/PorProDesk.png" }
+      ],
+      "video": "/videos/Porved.mp4",
+      "vercel": "https://portfolio1-wine-one.vercel.app/",
+      "github": "https://github.com/mahmoudfathydev-hub/portfolio1"
     }
   ]
 }

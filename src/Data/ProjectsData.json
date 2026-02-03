@@ -409,7 +409,7 @@
         { "id": 2, "img": "/images/PorGalDesk.png" },
         { "id": 3, "img": "/images/PorGalMob.png" },
         { "id": 4, "img": "/images/PorHomeMob.png" },
-        { "id": 5, "img": "/images/PorHomeDesk.png" },
+        { "id": 5, "img": "/images/porHomeDesk.png" },
         { "id": 6, "img": "/images/PorProMob.png" },
         { "id": 7, "img": "/images/PorProDesk.png" }
       ],

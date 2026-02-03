@@ -405,10 +405,10 @@
       ],
       "goal": "Deliver a high-performance, scalable, and production-ready portfolio website with industry-level optimization standards.",
       "images": [
-        { "id": 1, "img": "/images/Screenshot1.png" },
-        { "id": 2, "img": "/images/Screenshot2.png" },
-        { "id": 3, "img": "/images/Screenshot3.png" },
-        { "id": 4, "img": "/images/Screenshot4.png" }
+        { "id": 1, "img": "/images/Products.png" },
+        { "id": 2, "img": "/images/projectahmed.png" },
+        { "id": 3, "img": "/images/projectsahmed.png" },
+        { "id": 4, "img": "/images/Screenshot1.png" }
       ],
       "video": "/videos/Ezyskills.mp4",
       "vercel": "https://portfolio1-wine-one.vercel.app/",

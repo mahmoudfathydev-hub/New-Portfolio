@@ -405,17 +405,127 @@
       ],
       "goal": "Deliver a high-performance, scalable, and production-ready portfolio website with industry-level optimization standards.",
       "images": [
-        { "id": 1, "img": "/images/PorCard.png" },
-        { "id": 2, "img": "/images/PorGalDesk.png" },
-        { "id": 3, "img": "/images/PorGalMob.png" },
-        { "id": 4, "img": "/images/PorHomeMob.png" },
-        { "id": 5, "img": "/images/porHomeDesk.png" },
-        { "id": 6, "img": "/images/PorProMob.png" },
-        { "id": 7, "img": "/images/PorProDesk.png" }
+        {
+          "id": 1,
+          "img": "/images/PorCard.png"
+        },
+        {
+          "id": 2,
+          "img": "/images/PorGalDesk.png"
+        },
+        {
+          "id": 3,
+          "img": "/images/PorGalMob.png"
+        },
+        {
+          "id": 4,
+          "img": "/images/PorHomeMob.png"
+        },
+        {
+          "id": 5,
+          "img": "/images/porHomeDesk.png"
+        },
+        {
+          "id": 6,
+          "img": "/images/PorProMob.png"
+        },
+        {
+          "id": 7,
+          "img": "/images/PorProDesk.png"
+        }
       ],
       "video": "/videos/Porved.mp4",
       "vercel": "https://portfolio1-wine-one.vercel.app/",
       "github": "https://github.com/mahmoudfathydev-hub/portfolio1"
+    },
+    {
+      "id": 6,
+      "name": "Flame & Bun",
+      "desc": "Flame & Bun is a modern, fully-featured burger restaurant web application built with Next.js 16 and React 19. This is a comprehensive e-commerce platform for ordering burgers online with advanced features including cart management, favorites system, and detailed product catalog.",
+      "features": [
+        "Full product catalog with 26+ burger varieties",
+        "Shopping cart system with add/remove functionality",
+        "Favorites/wishlist system",
+        "User authentication system",
+        "Detailed burger information (ingredients, nutrition, allergens)",
+        "Customization options and pricing",
+        "Responsive design with mobile-first approach",
+        "Sticky navigation with active state indicators",
+        "Modern toast notifications and smooth animations"
+      ],
+      "tools_and_libraries": [
+        "Next.js 16.1.6",
+        "React 19.2.3",
+        "TypeScript 5",
+        "Tailwind CSS 3.4.19",
+        "Redux Toolkit 2.11.2",
+        "Radix UI",
+        "Lucide React",
+        "AOS",
+        "React Hot Toast"
+      ],
+      "architecture": [
+        "Clean Component Architecture",
+        "Client-side rendering with \"use client\"",
+        "Efficient state management with Redux",
+        "Modular component structure",
+        "Separation of data and presentation"
+      ],
+      "design_system": [
+        "Clean aesthetic with red/orange flame theme",
+        "CSS custom properties for theming",
+        "Professional typography with Geist fonts",
+        "Consistent design system",
+        "Responsive breakpoints"
+      ],
+      "status": [
+        "Complete E-Commerce Functionality",
+        "Optimized for deployment and performance",
+        "SEO-friendly structure",
+        "Production Ready"
+      ],
+      "goal": "Deliver a professional-grade, production-ready restaurant e-commerce platform that showcases modern web development best practices.",
+      "images": [
+        {
+          "id": 1,
+          "img": "/images/flamecard.png"
+        },
+        {
+          "id": 2,
+          "img": "/images/flame1.png"
+        },
+        {
+          "id": 3,
+          "img": "/images/flame2.png"
+        },
+        {
+          "id": 4,
+          "img": "/images/flame3.png"
+        },
+        {
+          "id": 5,
+          "img": "/images/flame4.png"
+        },
+        {
+          "id": 6,
+          "img": "/images/flame5.png"
+        },
+        {
+          "id": 7,
+          "img": "/images/flame6.png"
+        },
+        {
+          "id": 8,
+          "img": "/images/flame7.png"
+        },
+        {
+          "id": 9,
+          "img": "/images/flame8.png"
+        }
+      ],
+      "video": "/videos/flameved.mp4",
+      "vercel": "https://flame-bun.vercel.app/",
+      "github": "https://github.com/mahmoudfathydev-hub/flame-bun.git"
     }
   ]
 }

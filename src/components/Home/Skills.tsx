@@ -35,6 +35,7 @@ const Skills: React.FC = () => {
                 "Spline",
                 "Swiper",
                 "AOS",
+                "Zod",
             ],
         },
         {
@@ -49,6 +50,10 @@ const Skills: React.FC = () => {
                 "Thunder Client",
                 "Figma (Dev-Mode)",
                 "Netlify",
+                "Vercel",
+                "Framer Motion",
+                "Shadcn UI",
+                "Postman",
             ],
         },
         {

@@ -526,6 +526,89 @@
       "video": "/videos/flameved.mp4",
       "vercel": "https://flame-bun.vercel.app/",
       "github": "https://github.com/mahmoudfathydev-hub/flame-bun.git"
+    },
+    {
+      "id": 7,
+      "name": "Cafe Ramadan",
+      "desc": "Cafe Ramadan is a beautifully crafted, modern web application designed to enhance the Ramadan experience. It blends traditional Ramadan spirit with contemporary web design, featuring smooth GSAP animations, a responsive layout, and a seamless user experience. Note: This project was inspired by and built following a tutorial from the JS Mastery YouTube channel.",
+      "features": [
+        "Next.js 16.1.6 (App Router) for server-side rendering and performance",
+        "Advanced GSAP Animations: ScrollTrigger, SplitText, and Timelines",
+        "Responsive Design using Tailwind CSS 4",
+        "Modern UI/UX with a Ramadan-themed aesthetic",
+        "Optimized Images and Fonts (Geist)",
+        "Component-based architecture with strict TypeScript typing",
+        "Interactive Menu and Art Gallery sections"
+      ],
+      "tools_and_libraries": [
+        "Next.js 16",
+        "React 19",
+        "TypeScript",
+        "Tailwind CSS 4",
+        "GSAP",
+        "React Responsive",
+        "PostCSS"
+      ],
+      "architecture": [
+        "App Router with Server and Client Components",
+        "Atomic Design principles for components",
+        "Separation of content (constants) from logic",
+        "Hooks-based animation logic (useGSAP)"
+      ],
+      "design_system": [
+        "Custom Ramadan-themed color palette",
+        "Geist & Geist Mono fonts",
+        "Glassmorphism and dynamic animations",
+        "Utility-first styling with Tailwind"
+      ],
+      "status": [
+        "Core features and sections implemented",
+        "Animations polished and optimized",
+        "Responsive design verified",
+        "Ready for deployment"
+      ],
+      "goal": "To create an immersive digital experience that celebrates the spirit of Ramadan through modern web technology.",
+      "images": [
+        {
+          "id": 1,
+          "img": "/images/cafecard.png"
+        },
+        {
+          "id": 2,
+          "img": "/images/cafe2.png"
+        },
+        {
+          "id": 3,
+          "img": "/images/cafe3.png"
+        },
+        {
+          "id": 4,
+          "img": "/images/cafe4.png"
+        },
+        {
+          "id": 5,
+          "img": "/images/cafe5.png"
+        },
+        {
+          "id": 6,
+          "img": "/images/cafe6.png"
+        },
+        {
+          "id": 7,
+          "img": "/images/cafe7.png"
+        },
+        {
+          "id": 8,
+          "img": "/images/cafe8.png"
+        },
+        {
+          "id": 9,
+          "img": "/images/cafe9.png"
+        }
+      ],
+      "video": "/videos/cafevideo.mp4",
+      "vercel": "https://cafe-ramadan.vercel.app/",
+      "github": "https://github.com/mahmoudfathydev-hub/Cafe-Ramadan.git"
     }
   ]
 }

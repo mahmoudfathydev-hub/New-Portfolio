@@ -132,21 +132,26 @@ const ProjectInfoCom = () => {
       {/* Lightbox Modal */}
       {selectedImage && (
         <div
-          className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-4"
+          className="fixed inset-0 z-[9999] bg-black/95 flex items-center justify-center p-4 backdrop-blur-sm"
           onClick={() => setSelectedImage(null)}
         >
           <button
-            className="absolute top-6 left-6 text-white hover:text-[#e99b63] transition-colors z-50"
-            onClick={() => setSelectedImage(null)}
+            className="absolute top-6 left-6 text-white hover:text-[#e99b63] transition-colors z-[10000] bg-black/50 rounded-full p-2 hover:bg-black/70"
+            onClick={(e) => {
+              e.stopPropagation();
+              setSelectedImage(null);
+            }}
           >
-            <FaTimes className="text-4xl" />
+            <FaTimes className="text-3xl" />
           </button>
-          <img
-            src={selectedImage}
-            alt="Full view"
-            className="max-w-full max-h-full object-contain"
-            onClick={(e) => e.stopPropagation()}
-          />
+          <div className="relative max-w-[90vw] max-h-[90vh]">
+            <img
+              src={selectedImage}
+              alt="Full view"
+              className="max-w-full max-h-full object-contain rounded-lg shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </div>
         </div>
       )}
 

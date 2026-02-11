@@ -36,6 +36,7 @@ const Skills: React.FC = () => {
                 "Swiper",
                 "AOS",
                 "Zod",
+                "GSAP",
             ],
         },
         {

@@ -1,8 +1,9 @@
 import { useParams } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaGithub, FaExternalLinkAlt, FaTimes } from "react-icons/fa";
 import projectsData from "../../Data/ProjectsData.json";
 import { getAssetPath } from "../../utils/paths";
+import { useLoading } from "../../contexts/LoadingContext";
 
 interface ProjectImage {
   id: number;
@@ -32,8 +33,14 @@ interface ProjectsData {
 
 const ProjectInfoCom = () => {
   const { id } = useParams<{ id: string }>();
+  const { hideLoading } = useLoading();
   const data = projectsData as ProjectsData;
   const projectData = data.projects.find((p) => p.id === Number(id));
+
+  useEffect(() => {
+    // Hide loading spinner when component mounts
+    hideLoading();
+  }, [hideLoading]);
 
   // Transform paths to include base path
   const project = projectData

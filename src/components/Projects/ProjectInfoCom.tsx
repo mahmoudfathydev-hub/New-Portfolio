@@ -33,14 +33,106 @@ interface ProjectsData {
 
 const ProjectInfoCom = () => {
   const { id } = useParams<{ id: string }>();
-  const { hideLoading } = useLoading();
+  const { showLoading, hideLoading, updateProgress } = useLoading();
   const data = projectsData as ProjectsData;
   const projectData = data.projects.find((p) => p.id === Number(id));
 
   useEffect(() => {
-    // Hide loading spinner when component mounts
-    hideLoading();
-  }, [hideLoading]);
+    if (!projectData) return;
+
+    // Count total assets (images + video)
+    const imageCount = projectData.images.length;
+    const videoCount = projectData.video ? 1 : 0;
+    const total = imageCount + videoCount;
+
+    console.log("Loading assets:", { imageCount, videoCount, total });
+
+    // Show loading spinner with initial message
+    showLoading("Loading project assets...");
+    updateProgress(0, "Initializing project...");
+
+    // Fallback timeout to prevent infinite loading
+    const fallbackTimeout = setTimeout(() => {
+      console.log("Fallback timeout triggered");
+      updateProgress(100, "Project loaded (fallback)!");
+      setTimeout(() => {
+        hideLoading();
+      }, 500);
+    }, 10000); // 10 second fallback
+
+    // Preload all images
+    const imagePromises = projectData.images.map((image, index) => {
+      const imgSrc = getAssetPath(image.img.replace(/^\//, ""));
+      console.log("Preloading image:", imgSrc);
+      return new Promise<void>((resolve) => {
+        const img = new Image();
+        img.onload = () => {
+          console.log(`Image loaded: ${imgSrc}`);
+          updateProgress(
+            ((index + 1) / total) * 100,
+            `Loading images... (${index + 1}/${imageCount})`,
+          );
+          resolve();
+        };
+        img.onerror = () => {
+          console.error(`Failed to load image: ${imgSrc}`);
+          // Still count as loaded to prevent infinite loading
+          updateProgress(
+            ((index + 1) / total) * 100,
+            `Loading images... (${index + 1}/${imageCount})`,
+          );
+          resolve();
+        };
+        img.src = imgSrc;
+      });
+    });
+
+    // Preload video if exists
+    const videoPromise = projectData.video
+      ? new Promise<void>((resolve) => {
+          const videoSrc = getAssetPath(projectData.video!.replace(/^\//, ""));
+          const video = document.createElement("video");
+          video.onloadeddata = () => {
+            updateProgress(100, "Project loaded successfully!");
+            setTimeout(() => {
+              hideLoading();
+            }, 500);
+            resolve();
+          };
+          video.onerror = () => {
+            console.error(`Failed to load video: ${videoSrc}`);
+            updateProgress(100, "Project loaded (video unavailable)!");
+            setTimeout(() => {
+              hideLoading();
+            }, 500);
+            resolve();
+          };
+          video.src = videoSrc;
+          video.load();
+        })
+      : Promise.resolve();
+
+    // Wait for all assets to load
+    Promise.all([...imagePromises, videoPromise])
+      .then(() => {
+        console.log("All assets loaded");
+        clearTimeout(fallbackTimeout);
+        if (!projectData.video) {
+          updateProgress(100, "Project loaded successfully!");
+          setTimeout(() => {
+            hideLoading();
+          }, 500);
+        }
+      })
+      .catch((error) => {
+        console.error("Error loading assets:", error);
+        clearTimeout(fallbackTimeout);
+        updateProgress(100, "Project loaded with errors!");
+        setTimeout(() => {
+          hideLoading();
+        }, 500);
+      });
+  }, [projectData, showLoading, hideLoading, updateProgress]);
 
   // Transform paths to include base path
   const project = projectData

@@ -4,7 +4,6 @@ import { FaGithub, FaExternalLinkAlt, FaArrowDown } from "react-icons/fa";
 import { useState } from "react";
 import projectsData from "../../Data/ProjectsData.json";
 import { getAssetPath } from "../../utils/paths";
-import { useLoading } from "../../contexts/LoadingContext";
 interface ProjectImage {
   id: number;
   img: string;
@@ -30,7 +29,6 @@ interface ProjectsData {
 }
 export default function ProjectsSection() {
   const navigate = useNavigate();
-  const { showLoading } = useLoading();
   const [showAll, setShowAll] = useState(false);
   const data = projectsData as ProjectsData;
   const projects = data.projects.map((project) => ({
@@ -42,10 +40,7 @@ export default function ProjectsSection() {
   }));
 
   const handleProjectClick = (projectId: number) => {
-    showLoading();
-    setTimeout(() => {
-      navigate(`/project/${projectId}`);
-    }, 5000);
+    navigate(`/project/${projectId}`);
   };
 
   const hasMoreProjects = projects.length > 6;

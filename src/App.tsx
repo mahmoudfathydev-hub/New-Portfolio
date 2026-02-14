@@ -6,8 +6,6 @@ import Navbar from "./components/Global/Navbar";
 import Footer from "./components/Global/Footer";
 import ScrollToTop from "./components/Global/ScrollToTop";
 import BackToTop from "./components/Global/BackToTop";
-import LoadingSpinner from "./components/UI/LoadingSpinner";
-import { LoadingProvider } from "./contexts/LoadingContext";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -24,9 +22,7 @@ export default function App() {
   }, []);
 
   return (
-    <LoadingProvider>
       <main>
-        <LoadingSpinner />
         <ScrollToTop />
         <img
           className="absolute top-0 right-0 opacity-60 -z-10"
@@ -43,6 +39,5 @@ export default function App() {
         <Footer />
         <BackToTop />
       </main>
-    </LoadingProvider>
   );
 }

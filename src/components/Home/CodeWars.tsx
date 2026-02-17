@@ -20,7 +20,7 @@ const CodeWars = () => {
     {
       icon: FaTrophy,
       title: "Honor",
-      value: "201",
+      value: "239",
       description: "Points Earned",
       color: "from-yellow-400/40 to-yellow-600/40",
     },
@@ -77,8 +77,6 @@ const CodeWars = () => {
           <span className="font-medium">View CodeWars Profile</span>
         </a>
       </div>
-
-      {/* Stats Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
         {stats.map((stat, index) => {
           const Icon = stat.icon;
@@ -91,14 +89,11 @@ const CodeWars = () => {
               transition={{ delay: index * 0.1 }}
               className="group relative bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:border-[#e99b63]/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(233,155,99,0.15)]"
             >
-              {/* Icon */}
               <div
                 className={`w-16 h-16 bg-gradient-to-br ${stat.color} rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}
               >
                 <Icon className="text-2xl text-white" />
               </div>
-
-              {/* Content */}
               <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-[#e99b63] transition-colors">
                 {stat.value}
               </h3>
@@ -110,8 +105,6 @@ const CodeWars = () => {
           );
         })}
       </div>
-
-      {/* Coding Excellence */}
       <div className="mb-16" data-aos="fade-up">
         <h3 className="text-2xl font-bold text-white mb-6 text-center">
           Coding <span className="text-[#e99b63]">Excellence</span>
@@ -132,8 +125,6 @@ const CodeWars = () => {
           ))}
         </div>
       </div>
-
-      {/* Progress Section */}
       <div className="text-center" data-aos="fade-up">
         <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 max-w-2xl mx-auto">
           <h3 className="text-xl font-bold text-white mb-4">
@@ -142,16 +133,16 @@ const CodeWars = () => {
           <div className="w-full bg-gray-700 rounded-full h-4 mb-4">
             <div
               className="bg-gradient-to-r from-[#656565] to-[#e99b63] h-4 rounded-full transition-all duration-500"
-              style={{ width: "57.5%" }}
+              style={{ width: "84.3%" }}
             >
               <span className="text-xs text-white font-medium flex items-center justify-center h-full">
-                57.5%
+                84.3%
               </span>
             </div>
           </div>
           <p className="text-gray-300">
-            Currently 6 kyu • 31 Completed Kata • Leaderboard #438,799 • Honor
-            Percentile: Top 58.816%
+            Currently 6 kyu • 37 Completed Kata • Leaderboard #384,835 • Honor
+            Percentile: Top 51.552%
           </p>
         </div>
       </div>

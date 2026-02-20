@@ -609,6 +609,78 @@
       "video": "/videos/cafevideo.mp4",
       "vercel": "https://cafe-ramadan.vercel.app/",
       "github": "https://github.com/mahmoudfathydev-hub/Cafe-Ramadan.git"
+    },
+    {
+      "id": 8,
+      "name": "Best Drink - Premium Egyptian Juice Website",
+      "desc": "Best Drink is a premium Egyptian juice website showcasing modern web development capabilities with advanced animations, dynamic theming, and responsive design. Built with Next.js 14+ and GSAP, it delivers an immersive user experience with smooth scroll-triggered animations and state-driven UI updates.",
+      "features": [
+        "Next.js 14+ with App Router architecture for optimal performance",
+        "Advanced GSAP animations with ScrollTrigger for smooth scroll-based effects",
+        "Dynamic theming system with React Context for real-time color changes",
+        "Responsive design with mobile-first approach and fluid typography",
+        "Component-based architecture with reusable UI elements",
+        "Image optimization using Next.js Image component with lazy loading",
+        "State management using React Context API for global state",
+        "Performance optimizations with code splitting and memoization"
+      ],
+      "tools_and_libraries": [
+        "Next.js 14+",
+        "React 18",
+        "TypeScript",
+        "Tailwind CSS",
+        "GSAP (GreenSock Animation Platform)",
+        "GSAP ScrollTrigger",
+        "React Context API",
+        "Next.js Image Component"
+      ],
+      "architecture": [
+        "Next.js App Router with Server and Client Components",
+        "Feature-based component organization",
+        "Context-based state management (ThemeContext, FlavorContext, ProductImageContext)",
+        "Mixed Server/Client component pattern for optimal performance",
+        "Custom hooks for animation logic encapsulation",
+        "Prop-based composition for component reusability"
+      ],
+      "design_system": [
+        "Dynamic theming with CSS custom properties",
+        "Tailwind CSS with custom configuration",
+        "Responsive utility classes with mobile-first approach",
+        "Fluid typography using viewport units",
+        "Touch-friendly interaction areas (minimum 44px)"
+      ],
+      "status": [
+        "Core features and animations implemented",
+        "Responsive design verified across devices",
+        "Performance optimizations applied",
+        "Production-ready with deployment on Vercel"
+      ],
+      "goal": "Create a premium, immersive digital experience for an Egyptian juice brand that showcases advanced frontend capabilities and modern web development best practices.",
+      "images": [
+        {
+          "id": 1,
+          "img": "/images/bestCard.png"
+        },
+        {
+          "id": 2,
+          "img": "/images/besthero.png"
+        },
+        {
+          "id": 3,
+          "img": "/images/beatabout.png"
+        },
+        {
+          "id": 4,
+          "img": "/images/bestmenu.png"
+        },
+        {
+          "id": 5,
+          "img": "/images/bestcontact.png"
+        }
+      ],
+      "video": "/videos/bestvedio.mp4",
+      "vercel": "https://best-drink-two.vercel.app/",
+      "github": "https://github.com/mahmoudfathydev-hub/best-drink.git"
     }
   ]
 }

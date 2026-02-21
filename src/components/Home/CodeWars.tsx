@@ -20,7 +20,7 @@ const CodeWars = () => {
     {
       icon: FaTrophy,
       title: "Honor",
-      value: "308",
+      value: "342",
       description: "Points Earned",
       color: "from-yellow-400/40 to-yellow-600/40",
     },
@@ -133,16 +133,16 @@ const CodeWars = () => {
           <div className="w-full bg-gray-700 rounded-full h-4 mb-4">
             <div
               className="bg-gradient-to-r from-[#656565] to-[#e99b63] h-4 rounded-full transition-all duration-500"
-              style={{ width: "0%" }}
+              style={{ width: "14.7%" }}
             >
               <span className="text-xs text-white font-medium flex items-center justify-center h-full">
-                0%
+                14.7%
               </span>
             </div>
           </div>
           <p className="text-gray-300">
-            Currently 5 kyu • 40 Completed Kata • Leaderboard #284,991 • Honor
-            Percentile: Top 38.171%
+            Currently 5 kyu • 46 Completed Kata • Leaderboard #237,588 • Honor
+            Percentile: Top 31.803%
           </p>
         </div>
       </div>

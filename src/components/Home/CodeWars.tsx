@@ -13,14 +13,14 @@ const CodeWars = () => {
     {
       icon: FaGamepad,
       title: "Rank",
-      value: "5 kyu",
-      description: "Expert Level",
+      value: "3 kyu",
+      description: "Advanced Level",
       color: "from-blue-400/40 to-blue-600/40",
     },
     {
       icon: FaTrophy,
       title: "Honor",
-      value: "342",
+      value: "800",
       description: "Points Earned",
       color: "from-yellow-400/40 to-yellow-600/40",
     },
@@ -34,7 +34,7 @@ const CodeWars = () => {
     {
       icon: FaMedal,
       title: "Achievements",
-      value: "95",
+      value: "265",
       description: "Unlocked",
       color: "from-purple-400/40 to-purple-600/40",
     },
@@ -128,21 +128,21 @@ const CodeWars = () => {
       <div className="text-center" data-aos="fade-up">
         <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 max-w-2xl mx-auto">
           <h3 className="text-xl font-bold text-white mb-4">
-            Next Goal: <span className="text-[#e99b63]">4 kyu Rank</span>
+            Next Goal: <span className="text-[#e99b63]">2 kyu Rank</span>
           </h3>
           <div className="w-full bg-gray-700 rounded-full h-4 mb-4">
             <div
               className="bg-gradient-to-r from-[#656565] to-[#e99b63] h-4 rounded-full transition-all duration-500"
-              style={{ width: "14.7%" }}
+              style={{ width: "2.5%" }}
             >
               <span className="text-xs text-white font-medium flex items-center justify-center h-full">
-                14.7%
+                2.5%
               </span>
             </div>
           </div>
           <p className="text-gray-300">
-            Currently 5 kyu • 46 Completed Kata • Leaderboard #237,588 • Honor
-            Percentile: Top 31.803%
+            Currently 3 kyu • 48 Completed Kata • Leaderboard #57,626 • Honor
+            Percentile: Top 7.713%
           </p>
         </div>
       </div>

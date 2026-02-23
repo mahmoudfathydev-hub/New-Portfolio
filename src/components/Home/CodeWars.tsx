@@ -52,10 +52,7 @@ const CodeWars = () => {
 
   return (
     <div className="px-4 sm:px-8 md:px-24 lg:px-[100px] py-12 md:py-[150px] mt-4 relative overflow-hidden">
-      {/* Divider */}
       <div className="w-full md:w-[80%] mx-auto border-t-2 mb-6 border-gray-700"></div>
-
-      {/* Section Title */}
       <div className="text-center mb-16" data-aos="fade-down">
         <h2 className="text-4xl md:text-5xl font-bold text-white tracking-tight">
           CodeWars{" "}

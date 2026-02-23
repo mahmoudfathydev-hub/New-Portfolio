@@ -45,7 +45,7 @@ const Hero = () => {
 
         <div className="flex items-center gap-4 mt-10">
           <a
-            href="/images/mycv.pdf"
+            href="/images/NewCV.pdf"
             download="Mahmoud_Fathy_CV.pdf"
             className="flex items-center gap-2 border border-[#2a2a2a] py-2 sm:py-3 px-4 sm:px-5 text-sm sm:text-lg font-semibold rounded-full tracking-wider transition-all duration-300 hover:bg-[#1a1a1a] hover:border-[#e99b63]/50"
           >
@@ -63,7 +63,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* 3D MODEL SECTION */}
       <Spline
         className="
             w-full

@@ -681,6 +681,105 @@
       "video": "/videos/bestvedio.mp4",
       "vercel": "https://best-drink-two.vercel.app/",
       "github": "https://github.com/mahmoudfathydev-hub/best-drink.git"
+    },
+    {
+      "id": 9,
+      "name": "NovaTek - Advanced Electronics E-Commerce Platform",
+      "desc": "NovaTek is a production-grade electronics e-commerce platform engineered using Next.js 16 App Router and React 19. The project focuses on scalable frontend architecture, modular state management, optimized data fetching, and high-performance UI rendering. It transforms a traditional product catalog into a highly interactive, filter-driven shopping experience with enterprise-level structural design.",
+      "features": [
+        "Multi-dimensional filtering engine (category, brand, rating, price range, keyword search)",
+        "Parallel data fetching strategy using Promise.all for reduced latency",
+        "Centralized global state management via ProductContext",
+        "Memoized filtering and sorting computations for performance optimization",
+        "Pagination with customizable page sizes and dynamic recalculation",
+        "Fully modular cart system with persistent localStorage integration",
+        "Checkout workflow with structured form validation using React Hook Form + Zod",
+        "Favorites system with global toggle integration across product components",
+        "Skeleton loaders and placeholder states to prevent cumulative layout shift (CLS)",
+        "Client-side and server-side component composition for optimal rendering"
+      ],
+      "tools_and_libraries": [
+        "Next.js 16.1.6 (App Router)",
+        "React 19.2.3",
+        "TypeScript 5",
+        "Tailwind CSS 4",
+        "shadcn/ui (Radix-based components)",
+        "Radix UI Primitives",
+        "Lucide React",
+        "GSAP",
+        "Framer Motion",
+        "Swiper.js",
+        "React Hook Form",
+        "Zod",
+        "clsx",
+        "tailwind-merge",
+        "class-variance-authority"
+      ],
+      "architecture": [
+        "Layered architecture separating UI, state, services, and utilities",
+        "Feature-based folder structure for maintainability",
+        "Service layer abstraction for API requests",
+        "Context-driven state management with memoized selectors",
+        "Server/Client component hybrid strategy for optimal SSR + interactivity",
+        "Strict separation between business logic and UI components"
+      ],
+      "design_system": [
+        "Premium electronics-focused modern aesthetic",
+        "Utility-first styling with Tailwind CSS",
+        "Accessible UI built on Radix primitives",
+        "Consistent spacing scale and layout grid system",
+        "Motion-enhanced micro-interactions",
+        "Dark/light balanced visual hierarchy"
+      ],
+      "status": [
+        "Full product listing and filtering system implemented",
+        "Cart, Checkout, and Favorites modules integrated",
+        "Advanced search and sorting engine completed",
+        "Performance optimizations applied (memoization, lazy loading, optimized images)",
+        "Production-ready deployment on Vercel"
+      ],
+      "goal": "To engineer a scalable, maintainable, and performance-optimized e-commerce frontend system that demonstrates advanced architectural thinking, state orchestration, and UI engineering capabilities suitable for enterprise-level applications.",
+      "images": [
+        {
+          "id": 1,
+          "img": "/images/novabest.png"
+        },
+        {
+          "id": 2,
+          "img": "/images/novacont.png"
+        },
+        {
+          "id": 3,
+          "img": "/images/novaerr.png"
+        },
+        {
+          "id": 4,
+          "img": "/images/novafaq.png"
+        },
+        {
+          "id": 5,
+          "img": "/images/novapro1.png"
+        },
+        {
+          "id": 6,
+          "img": "/images/novapro2.png"
+        },
+        {
+          "id": 7,
+          "img": "/images/novapro3.png"
+        },
+        {
+          "id": 8,
+          "img": "/images/novasign.png"
+        },
+        {
+          "id": 9,
+          "img": "/images/novatest.png"
+        }
+      ],
+      "video": "/videos/novavideo.mp4",
+      "vercel": "https://novatek-alpha.vercel.app/",
+      "github": "https://github.com/mahmoudfathydev-hub/tech.git"
     }
   ]
 }

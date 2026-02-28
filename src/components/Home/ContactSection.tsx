@@ -22,8 +22,8 @@ const Contact = () => {
             id: 3,
             name: "LinkedIn",
             icon: <CiLinkedin />,
-            link: "https://www.linkedin.com/in/mahmoud-fathy-439293391/",
-            value: "mahmoud-fathy",
+            link: "https://www.linkedin.com/in/mahmoudfathy-frontend",
+            value: "mahmoudfathy-frontend",
         },
         {
             id: 4,
